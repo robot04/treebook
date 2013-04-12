@@ -8,6 +8,7 @@ gem 'bootstrap-sass', '~> 2.3.1.0'
 
 gem 'sqlite3'
 gem 'devise'
+gem 'simple_form'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -19,6 +20,10 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+end
+
+group :development, :test do
+	gem 'annotate', '~> 2.4.1.beta'
 end
 
 gem 'jquery-rails'
