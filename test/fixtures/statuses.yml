@@ -2,9 +2,11 @@
 
 one:
   content: MyText
+  user: chema
 
 two:
   content: MyText
+  user: chema
 # == Schema Information
 #
 # Table name: statuses
