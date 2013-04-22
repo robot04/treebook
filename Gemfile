@@ -6,7 +6,6 @@ gem 'bootstrap-sass', '~> 2.3.1.0'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
 gem 'devise'
 gem 'simple_form'
 
@@ -24,6 +23,11 @@ end
 
 group :development, :test do
 	gem 'annotate', '~> 2.4.1.beta'
+	gem 'sqlite3'
+end
+
+group :production do
+	gem "pg"
 end
 
 gem 'jquery-rails'
