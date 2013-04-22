@@ -7,6 +7,10 @@ one:
 two:
   content: MyText
   user: chema
+
+three:
+  content: "hola soy jim"
+  user: jim
 # == Schema Information
 #
 # Table name: statuses

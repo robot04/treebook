@@ -18,4 +18,9 @@ class CustomRoutesTest < ActionDispatch::IntegrationTest
   	assert_response :success
   end
 
+  test "la pagina de profile funciona" do
+    get '/r04'
+    assert_response :success
+  end
+
 end

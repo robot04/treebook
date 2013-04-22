@@ -24,4 +24,10 @@ chema:
   first_name: "Chema"
   last_name: "Juarez"
   email: "chemafj@gmail.com"
-  profile_name: "r04"	
+  profile_name: "r04"
+
+jim:
+ first_name: "Jim"
+ last_name: "Carls"
+ email: "jim@gmail.com"
+ profile_name: "jimcarls" 	
